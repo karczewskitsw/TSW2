@@ -1,0 +1,8 @@
+body{margin:0px auto;padding:0px;height:984px;width:1200px;background-image:url(tlo.png);background-repeat:repeat;color:#FFF;}
+.header{text-align:center;border-bottom:solid;border-bottom-color:#000;border-bottom-width:thick;}
+.player{float:left;display:block;}
+.times{float:left;display:block;}
+#log{float:left;display:block;}
+.lists{position:relative;display:inline-block;}
+.game{text-align:center;border-style:solid;position:absolute;left:47%;width:300px;height:200px;}
+#console{float:left;position:fixed;display:block;bottom:50px;font-size:18px;}

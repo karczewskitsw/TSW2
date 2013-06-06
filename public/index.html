@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MiniGry</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/skrypt.js"></script>
+
+  </head>
+  <body>
+  	<div class='header'>
+  		<h1>Mini gry</h1>
+		<h2>Zagraj i sprawdź swoje umiejętności gry zespołowej</h2>
+	</div>
+    <div class='game'>
+		<div id=gra1>
+        <p>Get the number</p>
+			<div>15+14=</div>
+			<button type="button" onclick="game1()" id='wynik'>30</button>
+            <button type="button" id="wynik" onclick="myFunction()">29</button>
+            <button type="button" onclick="game1()" id='wynik'>28</button>   
+         </div>
+         </div>
+
+	<div class='lists' id='gracze'>
+	    <h2>Lista graczy z czasami</h2>
+        <div id="log">
+    	  <ul>
+	      </ul>
+    	</div>
+        <div id="player">
+
+        </div>
+	</div>
+
+
+    <div id="console">
+	Podaj nick i wciśnij enter, aby zacząć gre:<input type="text" id="entry">
+    </div>
+  </body>
+</html>
